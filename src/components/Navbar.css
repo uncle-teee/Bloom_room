@@ -1,0 +1,64 @@
+.navbar {
+    background-color: #ff69b4;
+    padding: 1rem;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 1rem; /* Add margin to the left */
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin-right: 1rem; /* Add margin to the right */
+}
+
+.navbar li {
+    margin: 0;
+}
+
+.navbar a, .navbar .nav-link, .navbar .btn-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.navbar a:hover, .navbar .nav-link:hover, .navbar .btn-link:hover {
+    color: #ff69b4;
+    background-color: #444;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+}
+
+.navbar .signup-link {
+    color: darkblue;
+    font-weight: bold;
+}
+
+.navbar .signin-link {
+    color: darkblue;
+    font-weight: bold;
+}
+
+.navbar .signin-link:hover {
+    color: bisque;
+}
+
+.navbar .signup-link:hover {
+    color: bisque;
+}

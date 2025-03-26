@@ -1,0 +1,180 @@
+.single-product-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 90vh;
+    padding-top: 120px; /* Add padding to create space for the Navbar */
+    background-color: beige;
+    padding: 2rem;
+}
+
+.single-product-image {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin-right: 2rem;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.single-product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.single-product-image img:hover {
+    transform: scale(1.1);
+}
+
+.single-product-details {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    max-width: 500px;
+    width: 100%;
+}
+
+.single-product-details h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.single-product-details h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #ff9900;
+}
+
+.single-product-details p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #666;
+}
+
+.single-product-details .form-control {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.single-product-details .btn {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 4px;
+    background-color: black;
+    color: pink;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.single-product-details .btn:hover {
+    background-color: pink;
+    color: black;
+}
+
+.single-product-details .text-success,
+.single-product-details .text-danger,
+.single-product-details .text-warning {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+.single-product-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 90vh;
+    padding-top: 120px; /* Add padding to create space for the Navbar */
+    background-color: beige;
+    padding: 2rem;
+}
+
+.single-product-image {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin-right: 2rem;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.single-product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.single-product-image img:hover {
+    transform: scale(1.1);
+}
+
+.single-product-details {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    max-width: 500px;
+    width: 100%;
+}
+
+.single-product-details h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.single-product-details h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #ff9900;
+}
+
+.single-product-details p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #666;
+}
+
+.single-product-details .form-control {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.single-product-details .btn {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 4px;
+    background-color: black;
+    color: pink;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.single-product-details .btn:hover {
+    background-color: pink;
+    color: black;
+}
+
+.single-product-details .text-success,
+.single-product-details .text-danger,
+.single-product-details .text-warning {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}

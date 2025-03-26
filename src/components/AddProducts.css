@@ -1,0 +1,71 @@
+.addproducts-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #ff9a9e, #fecfef); /* Pinkish gradient background */
+    padding: 2rem;
+    padding-top: 10px; /* Add padding to create space for the Navbar */
+}
+
+.addproducts-card {
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+.addproducts-card h2 {
+    margin-bottom: 1.5rem;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    font-size: 2rem;
+}
+
+.addproducts-card .form-control {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.addproducts-card .btn {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.addproducts-card .btn:hover {
+    background-color: #45a049;
+}
+
+.addproducts-card .text-success,
+.addproducts-card .text-danger,
+.addproducts-card .text-warning {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.addproducts-card p {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.addproducts-card p a {
+    color: #ff7e5f;
+    text-decoration: none;
+}
+
+.addproducts-card p a:hover {
+    text-decoration: underline;
+}

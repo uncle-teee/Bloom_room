@@ -1,0 +1,122 @@
+.container {
+    padding: 2rem 1rem;
+}
+
+.card-margin {
+    margin: 1rem;
+}
+
+.product_img {
+    width: 100%;
+    height: 250px; /* Increase the height for better visibility */
+    object-fit: cover; /* Ensure the image covers the container without stretching */
+    border-radius: 8px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-body h5 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.card-body p {
+    font-size: 1rem;
+    color: #666;
+    height: 3rem; /* Set a fixed height for the description */
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Add ellipsis for overflow text */
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Show only 2 lines */
+    -webkit-box-orient: vertical;
+    line-clamp: 2; /* Standard property */
+}
+
+.card-body b {
+    font-size: 1.25rem;
+    color: #ff9900;
+}
+
+.card-body .btn {
+    background-color: black;
+    color: pink;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.card-body .btn:hover {
+    background-color: pink;
+    color: black;
+}
+
+.category-section {
+    margin-top: 2rem;
+}
+
+.category-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+    text-align: center;
+}
+
+.category-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.category-item {
+    margin: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.category-item:hover {
+    background-color: #0056b3;
+}
+
+.search-bar {
+    position: relative;
+    width: 100%;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px 20px 10px 40px; /* Add padding to the left for the icon */
+    border: 2px solid #ff69b4;
+    border-radius: 25px;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.search-bar input:focus {
+    border-color: #ff69b4;
+    box-shadow: 0 0 10px rgba(255, 105, 180, 0.5);
+}
+
+.search-bar input::placeholder {
+    color: #999;
+    font-style: italic;
+}
+
+.search-bar .search-icon {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #ff69b4;
+    pointer-events: none;
+}
