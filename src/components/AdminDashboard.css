@@ -1,0 +1,35 @@
+.admin-dashboard {
+    padding: 2rem;
+  }
+  
+  .add-product-form {
+    margin-bottom: 2rem;
+  }
+  
+  .add-product-form h3 {
+    margin-bottom: 1rem;
+  }
+  
+  .add-product-form .form-control {
+    margin-bottom: 1rem;
+  }
+  
+  .product-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .product-list th,
+  .product-list td {
+    padding: 0.75rem;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .product-list th {
+    background-color: #f8f9fa;
+  }
+  
+  .product-list .btn {
+    margin-right: 0.5rem;
+  }
